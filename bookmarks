@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-refile-last-stored"
+ (filename . "~/Documents/Org-mode/entry.org")
+ (front-context-string . "*** TODO 这是一个TOD")
+ (rear-context-string . "一个TODO item.比如:\n")
+ (position . 188))
+)
