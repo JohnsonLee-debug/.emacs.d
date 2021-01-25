@@ -97,7 +97,10 @@
 ;; language tool
 (use-package company
   :hook ((after-init . global-company-mode)))
+(use-package python-mode)
+(use-package pyenv-mode)
 (use-package flycheck
   :hook (after-init . global-flycheck-mode))
+(use-package smart-compile)
 (provide 'init-elpa)
 ;;; init-elpa.el ends here

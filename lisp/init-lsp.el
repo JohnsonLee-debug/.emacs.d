@@ -1,6 +1,7 @@
 (use-package lsp-mode
   :hook ((lsp-mode . lsp-enable-which-key-integration)
 	 (go-mode . lsp-deferred)
+	 (python-mode . lsp-deferred)
 	 (c-mode . lsp-deferred)
 	 (html-mode . lsp-deferred))
   :commands (lsp lsp-deferred)
